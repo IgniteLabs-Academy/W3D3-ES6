@@ -1,34 +1,40 @@
-// Week 3 Day 3: ES6 Practice - Arrow Functions, Destructuring, Spread
+// Week 3 - Day 3: JavaScript – Callbacks, Promises, async/await
 
-// TODO: Convert this to an arrow function that adds two numbers
-const arrowSum = (a, b) => {
-  // return sum of a and b
-};
+// 1. Callback-based function
+// Implement a function that fetches data and calls the provided callback with the result.
+function fetchData(callback) {
+  // TODO: Use setTimeout to simulate async data fetching, then call the callback with some data.
+}
 
-// TODO: Use object destructuring to return "FirstName LastName"
-const getFullName = (person) => {
-  // destructure firstName and lastName from person
-};
+// 2. Convert callback to Promise
+// Implement a function that returns a Promise which resolves with data (simulate async).
+function fetchDataPromise() {
+  // TODO: Return a Promise that resolves with some data after a delay.
+}
 
-// TODO: Use array destructuring to return the second element
-const getSecondElement = (arr) => {
-  // return second element
-};
+// 3. Promise that resolves after 2 seconds
+// Implement a function that returns a Promise which resolves after 2 seconds.
+function delayTwoSeconds() {
+  // TODO: Return a Promise that resolves after 2 seconds.
+}
 
-// TODO: Use spread operator to merge two arrays
-const mergeArrays = (arr1, arr2) => {
-  // return a new array with both
-};
+// 4. Async/await API fetch simulation
+// Implement an async function that simulates fetching data (use await with a Promise or setTimeout).
+async function asyncFetchData() {
+  // TODO: Use await to simulate an API fetch and return data.
+}
 
-// TODO: Use spread to copy an object
-const copyObject = (obj) => {
-  // return a copy of obj
-};
+// 5. Error handling with .catch and try...catch
+// Implement a function that sometimes throws an error, and handle it with .catch or try...catch.
+function sometimesFails(shouldFail) {
+  // TODO: If shouldFail is true, throw an error; otherwise, resolve with success.
+}
 
+// Export all functions for testing
 module.exports = {
-  arrowSum,
-  getFullName,
-  getSecondElement,
-  mergeArrays,
-  copyObject
+  fetchData,
+  fetchDataPromise,
+  delayTwoSeconds,
+  asyncFetchData,
+  sometimesFails,
 };

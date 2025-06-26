@@ -1,20 +1,19 @@
-# Week 3 - Day 3: ES6 – Arrow Functions, Destructuring, Spread
+# Week 3 - Day 3: JavaScript – Callbacks, Promises, async/await
 
 ## 🧠 Real-World Scenario
-You're working in a modern JavaScript codebase where ES6 syntax is the standard. You'll be refactoring and writing utility functions.
+You're working in a modern JavaScript codebase where asynchronous operations (like API calls) are common. You'll be refactoring and writing utility functions using callbacks, Promises, and async/await.
 
 ## 🎯 Task
 Complete the `index.js` file:
-1. Arrow function to add two numbers
-2. Object destructuring to format full name
-3. Array destructuring to extract second value
-4. Spread operator to merge arrays
-5. Spread operator to copy an object
+1. Write a callback-based function (e.g., fetchData(cb))
+2. Convert a callback function into a Promise-based solution
+3. Write a Promise that resolves after 2 seconds
+4. Use async/await to simulate an API fetch (with setTimeout or Promise)
+5. Handle errors using .catch and try...catch
 
 ## 🧪 Testing & Scoring
 5 test cases × 20 points = 100 points
 
 ## 🚀 Steps
 1. Edit `index.js` and complete the functions
-2. Use modern ES6 syntax
-3. Review the example image (expected-output.png)
+2. Use callbacks, Promises, and async/await syntax appropriately
